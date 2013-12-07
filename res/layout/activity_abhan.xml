@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@color/ablue"
+        android:gravity="center"
+        android:text="Abhan"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="false"
+        android:maxLines="15"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/darkslate"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/getsharepreferencevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getsharepreferencevalue"
+        android:text="Share Preference" />
+    
+    <Button
+        android:id="@+id/internalstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="internalFile"
+        android:text="Internal Store" />
+    
+     <Button
+        android:id="@+id/readfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="readFile"
+        android:text="readFile" />
+     
+     <Button
+        android:id="@+id/readrawfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="rawFile"
+        android:text="RawFolderStaticfile" />
+     
+      <Button
+        android:id="@+id/externaldir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="externalDir"
+        android:text="ReadExternalDir" />
+      
+      <Button
+        android:id="@+id/externalstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="externalstore"
+        android:text="WriteExternalDirStore" />
+
+</LinearLayout>
