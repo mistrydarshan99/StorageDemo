@@ -2,6 +2,6 @@ StorageDemo
 ===========
 Different Type of Storage such as
 
-SharedPreference
-internal Storage
+SharedPreference ,
+internal Storage ,
 External Storage
